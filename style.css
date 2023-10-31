@@ -10,3 +10,13 @@ h6 {
     font-family: Fraunces;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+
+@media screen (max-width=589px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
